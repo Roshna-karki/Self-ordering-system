@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.triangle-bg {
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  background-image: url('https://via.placeholder.com/300x300?text=Food+Image');
+  background-size: cover;
+  background-position: center;
+}
