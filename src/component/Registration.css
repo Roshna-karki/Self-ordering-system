@@ -3,25 +3,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background-color: #f5e4e4;
-  padding: 30px;
+  min-height: 500%;
+  padding: 100px;
+  padding-top: 180px;
 }
 
 .main-container {
-  width: 100%;
+  width: 120%;
   max-width: 1200px;
   height: 800px;
   background-color: rgb(224, 197, 197);
   border-radius: 20px;
   box-shadow: 0 20px 40px rgba(240, 219, 219, 0.1);
   overflow: hidden;
+
 }
 
 .registration-container {
   display: flex;
   height: 100vh;
   font-family: Arial, sans-serif;
+  padding-bottom: 100px;
 }
 
 /* Left side with donuts image */
@@ -36,7 +38,7 @@
 }
 
 .registration-left img {
-  width:100%;
+  width:120%;
   height: 80vh;
   object-fit: cover;
 }
@@ -48,7 +50,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: #fff;
+  background-color: #f7f1f1;
   padding: 20px;
   padding-top: 150px;
 }
@@ -70,7 +72,7 @@
   padding: 18px 20px;
   margin-bottom: 20px;
   border-radius: 12px;
-  background-color: #efdae7;
+  background-color: #e1bfd5;
   font-size: 15px;
   width: 500px
 }
